@@ -85,6 +85,7 @@ public class Hangman extends ConsoleProgram {
 			if(getChar.length() == 1) break;
 		}
 		ch = getChar.charAt(0);
+		ch = Character.toUpperCase(ch);
 	}
 	
 	private void checkForLoss() {
